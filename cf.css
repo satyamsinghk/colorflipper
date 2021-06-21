@@ -1,0 +1,61 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.heading {
+    height: 5vh;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+}
+
+.heading div {
+    padding-top: 5px;
+    cursor: pointer;
+    color: rgb(50, 164, 179);
+    font-weight: 50px;
+}
+
+.color_change {
+    position: relative;
+    height: 80vh;
+}
+
+.color_change div {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(145, 233, 245);
+    background-color: black;
+    padding: 12px;
+    border-radius: 5px;
+}
+.color_change button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 13px;
+    cursor: pointer;
+    width: 150px;
+}
+.color_change label {
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: black;
+    padding: 20px;
+    border-radius: 5px;
+    font-weight: 220px;
+    font-size: x-large;
+    width: 250px;
+    text-align: center;
+}
